@@ -128,5 +128,10 @@ namespace Calculator
             }
             display.Text = temp.ToString();
         }
+
+        private void clear_Click(object sender, EventArgs e)
+        {
+            display.Text = "";
+        }
     }
 }
