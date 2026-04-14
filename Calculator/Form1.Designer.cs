@@ -45,7 +45,6 @@ namespace Calculator
             this.zero = new System.Windows.Forms.Button();
             this.divide = new System.Windows.Forms.Button();
             this.equals = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -221,15 +220,6 @@ namespace Calculator
             this.equals.UseVisualStyleBackColor = true;
             this.equals.Click += new System.EventHandler(this.equals_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // clear
             // 
             this.clear.Location = new System.Drawing.Point(732, 409);
@@ -246,7 +236,6 @@ namespace Calculator
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(974, 565);
             this.Controls.Add(this.clear);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.equals);
             this.Controls.Add(this.divide);
             this.Controls.Add(this.zero);
@@ -288,7 +277,6 @@ namespace Calculator
         private System.Windows.Forms.Button zero;
         private System.Windows.Forms.Button divide;
         private System.Windows.Forms.Button equals;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button clear;
     }
 }
