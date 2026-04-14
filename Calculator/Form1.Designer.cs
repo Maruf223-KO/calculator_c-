@@ -201,9 +201,9 @@ namespace Calculator
             // divide
             // 
             this.divide.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.divide.Location = new System.Drawing.Point(578, 394);
+            this.divide.Location = new System.Drawing.Point(578, 402);
             this.divide.Name = "divide";
-            this.divide.Size = new System.Drawing.Size(75, 46);
+            this.divide.Size = new System.Drawing.Size(75, 50);
             this.divide.TabIndex = 14;
             this.divide.Text = "/";
             this.divide.UseVisualStyleBackColor = true;
@@ -212,7 +212,7 @@ namespace Calculator
             // equals
             // 
             this.equals.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.equals.Location = new System.Drawing.Point(260, 394);
+            this.equals.Location = new System.Drawing.Point(493, 381);
             this.equals.Name = "equals";
             this.equals.Size = new System.Drawing.Size(75, 46);
             this.equals.TabIndex = 15;
@@ -222,7 +222,7 @@ namespace Calculator
             // 
             // clear
             // 
-            this.clear.Location = new System.Drawing.Point(732, 409);
+            this.clear.Location = new System.Drawing.Point(260, 385);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(106, 42);
             this.clear.TabIndex = 17;
